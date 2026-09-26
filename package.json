@@ -42,6 +42,11 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@endcredits-demo/left-padder-pro": "github:zexoverz/endcredits-fixture-left-padder-pro",
+    "@endcredits-demo/moved-payout": "github:zexoverz/endcredits-fixture-moved-payout",
+    "@endcredits-demo/swapped-jar": "github:zexoverz/endcredits-fixture-swapped-jar",
+    "@endcredits-demo/tip-jar": "github:zexoverz/endcredits-fixture-tip-jar",
+    "@endcredits-demo/unclaimed-utils": "github:zexoverz/endcredits-fixture-unclaimed-utils",
     "prettier": "^3.9.9",
     "typescript": "^7.0.2",
     "vitest": "^5.0.2"

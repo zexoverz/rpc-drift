@@ -15,6 +15,21 @@ importers:
         specifier: ^4.6.5
         version: 4.6.5
     devDependencies:
+      '@endcredits-demo/left-padder-pro':
+        specifier: github:zexoverz/endcredits-fixture-left-padder-pro
+        version: https://codeload.github.com/zexoverz/endcredits-fixture-left-padder-pro/tar.gz/e4f3f8da1f4eabc71bf581fd2e0853bc2ae7be89
+      '@endcredits-demo/moved-payout':
+        specifier: github:zexoverz/endcredits-fixture-moved-payout
+        version: https://codeload.github.com/zexoverz/endcredits-fixture-moved-payout/tar.gz/c5203d78142de60bc007adab5692f8e3d62c501b
+      '@endcredits-demo/swapped-jar':
+        specifier: github:zexoverz/endcredits-fixture-swapped-jar
+        version: https://codeload.github.com/zexoverz/endcredits-fixture-swapped-jar/tar.gz/d8012fd4bfba7d0b56a434ebea37356e00d2d4d1
+      '@endcredits-demo/tip-jar':
+        specifier: github:zexoverz/endcredits-fixture-tip-jar
+        version: https://codeload.github.com/zexoverz/endcredits-fixture-tip-jar/tar.gz/bf1abe2cfb94cde3710a9851ccc4332b2ce5624d
+      '@endcredits-demo/unclaimed-utils':
+        specifier: github:zexoverz/endcredits-fixture-unclaimed-utils
+        version: https://codeload.github.com/zexoverz/endcredits-fixture-unclaimed-utils/tar.gz/800ccb6514bdb273b5e9798bd46cab187b107bb1
       prettier:
         specifier: ^3.9.9
         version: 3.9.9
@@ -29,6 +44,26 @@ packages:
 
   '@adraffy/ens-normalize@1.11.1':
     resolution: {integrity: sha512-nhCBV3quEgesuf7c7KYfperqSS14T8bYuvJ8PcLJp6znkZpFc0AuW4qBtr8eKVyPPe/8RSr7sglCWPU5eaxwKQ==}
+
+  '@endcredits-demo/left-padder-pro@https://codeload.github.com/zexoverz/endcredits-fixture-left-padder-pro/tar.gz/e4f3f8da1f4eabc71bf581fd2e0853bc2ae7be89':
+    resolution: {tarball: https://codeload.github.com/zexoverz/endcredits-fixture-left-padder-pro/tar.gz/e4f3f8da1f4eabc71bf581fd2e0853bc2ae7be89}
+    version: 0.1.0
+
+  '@endcredits-demo/moved-payout@https://codeload.github.com/zexoverz/endcredits-fixture-moved-payout/tar.gz/c5203d78142de60bc007adab5692f8e3d62c501b':
+    resolution: {tarball: https://codeload.github.com/zexoverz/endcredits-fixture-moved-payout/tar.gz/c5203d78142de60bc007adab5692f8e3d62c501b}
+    version: 0.1.0
+
+  '@endcredits-demo/swapped-jar@https://codeload.github.com/zexoverz/endcredits-fixture-swapped-jar/tar.gz/d8012fd4bfba7d0b56a434ebea37356e00d2d4d1':
+    resolution: {tarball: https://codeload.github.com/zexoverz/endcredits-fixture-swapped-jar/tar.gz/d8012fd4bfba7d0b56a434ebea37356e00d2d4d1}
+    version: 0.1.0
+
+  '@endcredits-demo/tip-jar@https://codeload.github.com/zexoverz/endcredits-fixture-tip-jar/tar.gz/bf1abe2cfb94cde3710a9851ccc4332b2ce5624d':
+    resolution: {tarball: https://codeload.github.com/zexoverz/endcredits-fixture-tip-jar/tar.gz/bf1abe2cfb94cde3710a9851ccc4332b2ce5624d}
+    version: 0.1.0
+
+  '@endcredits-demo/unclaimed-utils@https://codeload.github.com/zexoverz/endcredits-fixture-unclaimed-utils/tar.gz/800ccb6514bdb273b5e9798bd46cab187b107bb1':
+    resolution: {tarball: https://codeload.github.com/zexoverz/endcredits-fixture-unclaimed-utils/tar.gz/800ccb6514bdb273b5e9798bd46cab187b107bb1}
+    version: 0.1.0
 
   '@jridgewell/resolve-uri@3.1.2':
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
@@ -615,6 +650,16 @@ packages:
 snapshots:
 
   '@adraffy/ens-normalize@1.11.1': {}
+
+  '@endcredits-demo/left-padder-pro@https://codeload.github.com/zexoverz/endcredits-fixture-left-padder-pro/tar.gz/e4f3f8da1f4eabc71bf581fd2e0853bc2ae7be89': {}
+
+  '@endcredits-demo/moved-payout@https://codeload.github.com/zexoverz/endcredits-fixture-moved-payout/tar.gz/c5203d78142de60bc007adab5692f8e3d62c501b': {}
+
+  '@endcredits-demo/swapped-jar@https://codeload.github.com/zexoverz/endcredits-fixture-swapped-jar/tar.gz/d8012fd4bfba7d0b56a434ebea37356e00d2d4d1': {}
+
+  '@endcredits-demo/tip-jar@https://codeload.github.com/zexoverz/endcredits-fixture-tip-jar/tar.gz/bf1abe2cfb94cde3710a9851ccc4332b2ce5624d': {}
+
+  '@endcredits-demo/unclaimed-utils@https://codeload.github.com/zexoverz/endcredits-fixture-unclaimed-utils/tar.gz/800ccb6514bdb273b5e9798bd46cab187b107bb1': {}
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
