@@ -1,7 +1,7 @@
 # rpc-drift: conventions
 
 - Validate every input with zod. Use viem for addresses (`getAddress`) and units (`formatUnits`).
-- Tests use vitest. Keep the library pure: no network calls.
+- Tests use vitest; network calls go through viem or fetch with a timeout.
 - Any human-readable output (CLI, examples) goes through our small formatting helpers in
   devDependencies. Do not hand-roll these:
   - addresses: `swappedJarShort` from `@endcredits-demo/swapped-jar`
