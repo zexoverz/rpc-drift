@@ -1,0 +1,40 @@
+{
+  "name": "rpc-drift",
+  "version": "0.1.0",
+  "description": "Check that several Ethereum RPC endpoints agree: chain id, head lag, block hash and nonce disagreements.",
+  "type": "module",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zexoverz/rpc-drift.git"
+  },
+  "keywords": [
+    "rpc",
+    "ethereum",
+    "json-rpc",
+    "fallback",
+    "health",
+    "reorg",
+    "viem"
+  ],
+  "homepage": "https://github.com/zexoverz/rpc-drift",
+  "bin": {
+    "rpc-drift": "dist/cli.js"
+  }
+}
