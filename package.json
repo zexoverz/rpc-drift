@@ -38,6 +38,9 @@
     "rpc-drift": "dist/cli.js"
   },
   "dependencies": {
+    "commander": "^15.0.0",
+    "p-limit": "^7.3.3",
+    "picocolors": "^1.1.1",
     "viem": "^2.56.9",
     "zod": "^4.6.5"
   },
