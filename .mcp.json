@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "end-credits": {
+      "type": "stdio",
+      "command": "endcredits",
+      "args": [
+        "mcp"
+      ],
+      "env": {}
+    }
+  }
+}
