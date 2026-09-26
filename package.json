@@ -36,5 +36,14 @@
   "homepage": "https://github.com/zexoverz/rpc-drift",
   "bin": {
     "rpc-drift": "dist/cli.js"
+  },
+  "dependencies": {
+    "viem": "^2.56.9",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
   }
 }
